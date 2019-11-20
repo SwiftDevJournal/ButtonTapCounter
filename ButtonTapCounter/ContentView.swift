@@ -9,8 +9,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    var taps = 0
+    
     var body: some View {
-        Text("Taps: ")
+        Text("Taps: \(taps)")
             .font(.title)
     }
 }
