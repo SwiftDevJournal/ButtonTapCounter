@@ -15,6 +15,7 @@ struct ContentView: View {
         VStack {
             Text("Taps: \(taps)")
                 .font(.title)
+                .padding()
             Button("Tap Me") {
                 self.taps += 1
             }
