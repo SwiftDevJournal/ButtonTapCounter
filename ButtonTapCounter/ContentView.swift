@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Text("Taps: ")
-            .bold()
+            .font(.title)
     }
 }
 
