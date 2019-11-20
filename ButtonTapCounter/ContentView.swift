@@ -12,8 +12,10 @@ struct ContentView: View {
     var taps = 0
     
     var body: some View {
-        Text("Taps: \(taps)")
-            .font(.title)
+        VStack {
+            Text("Taps: \(taps)")
+                .font(.title)
+        }
     }
 }
 
