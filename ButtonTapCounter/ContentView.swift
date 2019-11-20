@@ -19,6 +19,10 @@ struct ContentView: View {
             Button("Tap Me") {
                 self.taps += 1
             }
+                .padding()
+            Button("Reset") {
+                self.taps = 0
+            }
         }
     }
 }
