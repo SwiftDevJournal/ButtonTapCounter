@@ -9,12 +9,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    var taps = 0
+    @State var taps = 0
     
     var body: some View {
         VStack {
             Text("Taps: \(taps)")
                 .font(.title)
+            Button("Tap Me") {
+                self.taps += 1
+            }
         }
     }
 }
